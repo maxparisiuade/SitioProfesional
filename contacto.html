@@ -1,71 +1,132 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
+    <title>MakeItProfessional - Servicios de Edición de Videos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <header>
-      <div>
-        <img src="img/logo.jpeg" alt="MakeItProfessionalLogo" height="200px" />
-        <h1>MakeItProfessional</h1>
+  <body class="d-flex flex-column h-100">
+    <div class="d-flex text-center text-white nav-background-color">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0">MakeItProfessional</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="servicios.html">Servicios Ofrecidos</a>
+              <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </nav>
+          </div>
+        </header>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li><a href="servicios.html">Servicios Ofrecidos</a></li>
-          <li><a href="nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Contacto</h1>
-      <p>
-        ¿Listo para llevar tu proyecto audiovisual al siguiente nivel? ¡Nos
-        encantaría saber de ti! Ya sea que tengas una pregunta sobre nuestros
-        servicios, estés interesado en colaborar en un proyecto o simplemente
-        quieras conocernos mejor, no dudes en ponerte en contacto con nosotros.
-        Estamos aquí para ayudarte en cada paso del camino.
-      </p>
+    </div>
 
-      <h2>Información de Contacto</h2>
-      <p><strong>Teléfono:</strong> [+54-11-1111-1111]</p>
-      <p>
-        <strong>Correo Electrónico:</strong>
-        <a href="mailto:contacto@makeitprofesional.com"
-          >contacto@makeitprofesional.com</a
-        >
-      </p>
-      <p>
-        <strong>Horario de Atención:</strong> Lunes a Viernes, de 9:00 a.m. a
-        6:00 p.m. (Hora Argentina)
-      </p>
+    <main class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="mb-4">¡Contáctanos!</h1>
+            <p>
+              ¿Estás listo para dar el salto hacia una producción audiovisual de
+              calidad? ¡Estamos aquí para ayudarte a hacerlo posible! Si tienes
+              alguna pregunta sobre nuestros servicios, deseas colaborar en un
+              proyecto o simplemente quieres saber más sobre nosotros, no dudes
+              en ponerte en contacto con nuestro equipo. Estamos aquí para
+              asesorarte y acompañarte en cada paso del camino.
+            </p>
 
-      <h2>Redes Sociales</h2>
-      <ul>
-        <li>
-          <strong>Facebook:</strong>
-          <a href="index.html">@MakeItProfessional</a>
-        </li>
-        <li>
-          <strong>Instagram:</strong>
-          <a href="index.html">@MakeItProfessional</a>
-        </li>
-        <li>
-          <strong>YouTube:</strong>
-          <a href="index.html">@MakeItProfessional</a>
-        </li>
-      </ul>
+            <h2 class="mt-5">Información de Contacto</h2>
+            <ul class="list-unstyled">
+              <li><strong>Teléfono:</strong> [+54-11-1111-1111]</li>
+              <li>
+                <strong>Correo Electrónico:</strong>
+                <a href="mailto:contacto@makeitprofesional.com"
+                  >contacto@makeitprofesional.com</a
+                >
+              </li>
+              <li>
+                <strong>Horario de Atención:</strong> Lunes a Viernes, de 9:00
+                a.m. a 6:00 p.m. (Hora Argentina)
+              </li>
+            </ul>
+
+            <h2 class="mt-5">Redes Sociales</h2>
+            <ul class="list-inline d-flex">
+              <li>
+                <a
+                  href="#"
+                  class="social-link"
+                  style="background-color: #3b5998; color: white"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="social-link"
+                  style="background-color: #e4405f; color: white"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="social-link"
+                  style="background-color: #c4302b; color: white"
+                  >YouTube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light shadow">
+              <div class="card-body">
+                <h3 class="card-title mb-4">¡Déjanos un Mensaje!</h3>
+                <form>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="correo" class="form-label"
+                      >Correo Electrónico</label
+                    >
+                    <input type="email" class="form-control" id="correo" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea
+                      class="form-control"
+                      id="mensaje"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark">
+                    Enviar Mensaje
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
-      <p>
-        Derechos de Autor © 2024 - MakeItProfessional - Servicios de Edición de
-        Videos
-      </p>
+
+    <footer class="footer mt-auto py-3 bg-light text-center">
+      <div class="container">
+        <p>
+          Derechos de Autor © 2024 - MakeItProfessional - Servicios de Edición
+          de Videos
+        </p>
+      </div>
     </footer>
   </body>
 </html>
