@@ -78,8 +78,7 @@
   color: #007bff;
 }
 
-@media (max-width: 768px) {
-  .home-title {
-    margin-top: 20px;
-  }
+.home-body {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
